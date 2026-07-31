@@ -2,8 +2,6 @@
 
 Report on Bob Loblaw's clinical trial, exploring whether certain immune cell population frequencies predict melanoma patients' response to the drug **miraclib**.
 
-**Dashboard:** [INSERT DEPLOYED STREAMLIT LINK HERE]
-
 ---
 
 ## 1. How to Run
@@ -74,7 +72,7 @@ To handle a broader range of analytics, an `analytics` table could be introduced
 
 ---
 
-## 3. Code Structure
+## 3. Code Structure and Explanation
 
 ```
 .
@@ -97,8 +95,6 @@ To handle a broader range of analytics, an `analytics` table could be introduced
     ├── pt4_num_responders.csv
     └──pt4_num_gender.csv
 ```
-
-### Explanation
 
 
 - `sqlite` and `pandas` were used to initiate the database and handle all
@@ -126,4 +122,4 @@ outputs of `analysis.py` across three tabs (Part 2, Part 3, Part 4).
 
 - **Local:** `make dashboard`, then open the URL Streamlit prints
   (usually `http://localhost:8501`).
-- **Deployed:** [INSERT DEPLOYED STREAMLIT LINK HERE]
+- **Deployed:** https://bob-boblaw.streamlit.app/
