@@ -5,6 +5,7 @@ setup:
 	./venv/bin/pip install -r requirements.txt
 
 pipeline:
+	rm -f loblaw.db
 	mkdir -p outputs
 	./venv/bin/python load_data.py
 	./venv/bin/python analysis.py
