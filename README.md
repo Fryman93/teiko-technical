@@ -120,6 +120,6 @@ To handle a broader range of analytics, an `analytics` table could be introduced
 The dashboard is built with [Streamlit](https://streamlit.io) and renders the
 outputs of `analysis.py` across three tabs (Part 2, Part 3, Part 4).
 
-- **Local:** `make dashboard`, then open the URL Streamlit prints
-  (usually `http://localhost:8501`).
+- **Local:** `make dashboard` will open a browser 
+  (usually with `http://localhost:8501`).
 - **Deployed:** https://bob-boblaw.streamlit.app/
